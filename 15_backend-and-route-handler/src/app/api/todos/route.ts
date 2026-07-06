@@ -9,7 +9,6 @@ export async function POST(request: Request) {
     message: "todo created successfully",
     todos: {
       title,
-      complete,
     },
   });
 }
